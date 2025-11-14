@@ -1,0 +1,162 @@
+.elementor-1538 .elementor-element.elementor-element-a95ab59{--display:flex;}/* Start custom CSS for html, class: .elementor-element-bfefaf4 */.main-action-buttons {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+    align-items: center !important;
+}
+
+.main-action-buttons .main-action-btn {
+    width: 100% !important;
+    max-width: 300px !important;
+    padding: 15px 20px !important;
+    text-align: center !important;
+    border-radius: 25px !important;
+}
+
+.portfolio-tabs {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    overflow: hidden;
+    background: #f8f9ff !important;
+    border-radius: 25px !important;
+    padding: 5px !important;
+    margin-bottom: 20px !important;
+}
+
+.portfolio-tabs .tab-btn {
+    flex: 1 !important;
+    margin: 2px !important;
+    padding: 7px !important;
+    border: none !important;
+    background: none !important;
+    border-radius: 20px !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    color: black !important;
+    text-transform: capitalize;
+}
+
+.portfolio-tabs .tab-btn.active {
+    background: linear-gradient(to right, #0072ff, #00c6ff) !important;
+    color: white !important;
+}
+
+    /* Contact info text color */
+.contact-item strong,
+.contact-item span {
+    color: black !important;
+}
+
+/* Keep contact icons white */
+.contact-icon {
+    color: white !important;
+}
+    
+    /* Force heading size and style */
+.company-name {
+    font-size: 25px !important; /* Adjust if you want even bigger */
+    font-family: 'Inter', sans-serif !important;
+    font-weight: bold !important;
+    line-height: 01.2 !important;
+    color: #ffff !important; /* Matches your HTML orange/gold color */
+    text-align: center !important;
+    
+}
+
+/* Keep tagline style consistent */
+.tagline {
+    font-size: 14px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.main-action-buttons .main-action-btn {
+    width: 100% !important;
+    padding: 15px 20px !important;
+    border: none !important;
+    border-radius: 25px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+    text-transform: uppercase ;
+    letter-spacing: 0.5px !important;
+}
+
+.main-action-buttons .share-page {
+    background: linear-gradient(90deg, #00c6ff, #0072ff) !important;
+    color: white !important;
+}
+
+.main-action-buttons .save-contact {
+    background: white !important;
+    color: #2196F3 !important;
+    border: 2px solid #e3f2fd !important;
+}
+
+.main-action-buttons .save-contact:hover {
+    background: #f8fbff !important;
+    border-color: #2196F3 !important;
+}
+
+.share-btn.youtube {
+    background: #FF0000; /* YouTube red */
+    color: white;        /* White play icon */
+}
+
+.logo {
+    background: #fff;
+    border-radius: 55px; /* More curve for smoother edges */
+    padding: 12px 18px;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    margin: 0 auto 15px;
+}
+
+.logo img {
+    max-width: 220px !important; /* bigger */
+    height: auto !important;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+h1, h2, h3, .elementor-heading-title {
+    letter-spacing: 0px !important;
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* positive number for proper spacing */
+    margin-left: -15px; /* move icon left by removing extra margin */
+}
+
+@media (max-width: 768px) {
+    .contact-item {
+        margin-left: -15px; /* same for mobile */
+        flex-wrap: nowrap;
+    }
+}
+
+.elementor-widget-container .contact-item {
+    padding-left: 5px !important; /* adjust card padding */
+}
+
+
+.share-page,
+.save-contact {
+    text-transform: capitalize !important; /* Forces Title Case */
+}
+.testimonial-author {
+    color:#0074ff !important; /* Change this to the color you want */
+}/* End custom CSS */
